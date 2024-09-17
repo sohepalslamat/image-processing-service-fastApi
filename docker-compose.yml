@@ -5,8 +5,7 @@ services:
     build: .
     ports:
       - "8000:8000"
-    environment:
-      - DATABASE_URL=your_database_url
-      - FIREBASE_CREDENTIALS=cred.json
+    env_file:
+      - .env  # Ensure the .env file is specified here
     volumes:
       - .:/app  # Mount the current directory to /app in the container
