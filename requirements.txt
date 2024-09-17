@@ -1,0 +1,11 @@
+fastapi==0.114.2
+uvicorn==0.30.6
+firebase-admin==6.5.0
+httpx==0.27.2
+pytest==8.3.3
+pytest-asyncio==0.24.0
+python-multipart==0.0.9
+Pillow==10.4.0
+SQLAlchemy==2.0.35
+databases==0.9.0
+python-dotenv==1.0.1
